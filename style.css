@@ -1,0 +1,173 @@
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin:0;
+    
+}
+
+a{
+    text-decoration: none;
+    color:#e5e7eb
+}
+
+.page{
+    width: 100%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+p,a,button{
+    font-family: 'roboto';
+    padding-left: 5%;
+}
+
+.rect{
+    height: 75%;
+    width: 65%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.top{
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
+.topBox{
+    width: 75%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+
+.heading{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.description,.links{
+    font-size: 18px;
+    color:#e5e7eb;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description{
+    flex-direction: row;
+}
+
+button{
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border: 0;
+    border-radius: 15%;
+    padding: 1%;
+}
+
+.upperHalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.images{
+    display: flex;
+    flex: 1;
+}
+
+.illustration{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 45%;
+    align-items: center;
+}
+.details{
+    text-align: center;
+}
+
+.upperHalfBox{
+    display: flex;
+    justify-content: center;
+}
+
+.square{
+    width: 45%;
+    border: 3px solid #3882F6;
+    border-radius: 5%;
+}
+
+
+.lowerHalf{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 55%;
+    margin: 15px;
+}
+
+.lowerHalfBox{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.author{
+    font-weight: bolder;
+    text-align: right;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    background-color:#3882F6;
+    width:50%;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5%;
+    margin:5%;
+    perspective: 1px;
+    overflow: hidden;
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 2%;
+}
+
+.sign{
+    border: 2px solid #e5e7eb;
+}
