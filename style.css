@@ -35,7 +35,8 @@ p,a,button{
 .header{
     display: flex;
     justify-content: space-between;
-    font-weight: bold;
+    font-weight: 1000;
+    font-size: large;
 }
 
 .top{
@@ -65,16 +66,23 @@ p,a,button{
     align-items: center;
 }
 
+.links {
+    width: 35%;
+}
+
 .description{
     flex-direction: row;
+    gap: 15px;
 }
 
 button{
     background-color: #3882F6;
     color: #e5e7eb;
     border: 0;
-    border-radius: 15%;
+    border-radius: 5px;
     padding: 1%;
+    margin-left: 30px;
+    width: 15%;
 }
 
 .upperHalf{
@@ -99,6 +107,7 @@ button{
 }
 .details{
     text-align: center;
+    width: 50%;
 }
 
 .upperHalfBox{
@@ -118,7 +127,7 @@ button{
     justify-content: center;
     flex-direction: column;
     width: 55%;
-    margin: 15px;
+    margin: 50px 15px;
 }
 
 .lowerHalfBox{
@@ -155,7 +164,7 @@ button{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border-radius: 5%;
+    border-radius: 5px;
     margin:5%;
     perspective: 1px;
     overflow: hidden;
