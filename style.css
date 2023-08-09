@@ -156,6 +156,11 @@ button{
     align-items: center;
 }
 
+.bannerHeading{
+    font-weight:bolder;
+    font-size: larger;
+}
+
 .banner{
     background-color:#3882F6;
     width:50%;
