@@ -159,6 +159,15 @@ button{
 .bannerHeading{
     font-weight:bolder;
     font-size: larger;
+    margin-bottom: 0;
+}
+
+.bannerDescription{
+    margin-top: 0;
+}
+
+.bannerText{
+    width: 50%;
 }
 
 .banner{
